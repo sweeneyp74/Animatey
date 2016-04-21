@@ -31,4 +31,4 @@ During the function update part of the cycle, you call this function
 playerAnimation.getSprite(dt)
 ```
 dt is deltatime and can be added to the parameters of function update. Then pass that dt into this function call.
-Everytime to you call this function, the object determines if its time to send you the next sprite in the animation.
+Everytime you call this function, the object determines if its time to send you the next sprite in the animation.
